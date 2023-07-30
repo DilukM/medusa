@@ -45,7 +45,7 @@ body::before {
 
 .image-wrapper img {
   display: block;
-  width: 30%;
+  width: 40%;
   height: 100%;
   object-fit: scale-down;
   margin-top: 50px;
