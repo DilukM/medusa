@@ -60,7 +60,7 @@ body::before {
 
 .image-wrapper img {
   display: block;
-  width: 50%;
+  width: 30%;
   height: 100%;
   object-fit: scale-down;
   margin-top: 50px;
