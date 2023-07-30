@@ -115,6 +115,7 @@ body::before {
   border-radius: 5px;
   cursor: pointer;
   z-index: 4;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1000px) {
