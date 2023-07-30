@@ -128,6 +128,9 @@ body::before {
 }
 
 @media only screen and (max-width: 1000px) {
+  .texts {
+    top: 100px;
+  }
   .image-wrapper {
     display: none;
   }
