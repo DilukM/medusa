@@ -172,6 +172,7 @@ body::before {
   .image-wrapper5 {
     position: absolute;
     top: 0px;
+    bottom: 50px;
     width: 100%; /* Adjust the width of the image wrapper as needed */
     height: 1200px; /* Adjust the height of the image wrapper as needed */
     z-index: 1; /* Set a higher z-index to bring the image to the front */
