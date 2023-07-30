@@ -153,7 +153,7 @@ body::before {
     top: 0px;
     margin-bottom: 0rem;
     width: 80%; /* Adjust the width of the image wrapper as needed */
-    height: 600px; /* Adjust the height of the image wrapper as needed */
+    height: 400px; /* Adjust the height of the image wrapper as needed */
     z-index: 1; /* Set a higher z-index to bring the image to the front */
   }
 
