@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Medusa</title>
+    <link rel="stylesheet" type="text/css" href="form.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+
+    <script src="form.js"></script>
+    <style type="text/css "></style>
+  </head>
+
+  <body>
+    <div class="image-wrapper">
+      <img src="medusa.png" alt="Image on the left" />
+    </div>
+    <form action="#" method="POST" id="studentForm">
+      <h1>Reservation Form</h1>
+
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="faculty">Faculty:</label>
+      <input type="text" id="faculty" name="faculty" required /><br /><br />
+
+      <label for="degree">Degree Program:</label>
+      <input type="text" id="degree" name="degree" required /><br /><br />
+
+      <label for="studentnum">Student Number:</label>
+      <input
+        type="text"
+        id="studentnum"
+        name="studentnum"
+        required
+      /><br /><br />
+
+      <label for="contactnum">Contact Number:</label>
+      <input
+        type="tel"
+        id="contactnum"
+        name="contactnum"
+        required
+      /><br /><br />
+
+      <center><input type="submit" value="Submit" /></center>
+    </form>
+    <div class="image-wrapper4">
+      <img src="Logos.png" />
+    </div>
+  </body>
+</html>

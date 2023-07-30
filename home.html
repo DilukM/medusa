@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Medusa</title>
+    <link rel="stylesheet" type="text/css" href="home.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+
+    <script src="form.js"></script>
+    <style type="text/css "></style>
+  </head>
+
+  <body>
+    <div class="Main">
+      <div class="image-wrapper">
+        <img src="medusa.png" alt="Image on the left" />
+      </div>
+
+      <div class="heading">
+        <center>
+          <h1>CINEC Student Association</h1>
+          <h2>Proudly Presents</h2>
+
+          <div class="image-wrapper2">
+            <img src="logo1.png" alt="" />
+          </div>
+
+          <div class="formButton">
+            <button id="formButton">Reserve Tickets →</button>
+          </div>
+        </center>
+      </div>
+
+      <div>
+        <div class="image-wrapper4">
+          <img src="Logos.png" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // JavaScript code to handle button click and redirect
+      document
+        .getElementById("formButton")
+        .addEventListener("click", function () {
+          window.location.href = "form.html";
+        });
+    </script>
+  </body>
+</html>
