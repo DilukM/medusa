@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Arial, sans-serif;
   padding: 10px;
   overflow-x: hidden;
@@ -146,6 +149,10 @@ h2 {
     display: none;
   }
 
+  .image-wrapper2 {
+    width: 1000px;
+  }
+
   body {
     overflow: hidden;
     background-size: cover;
@@ -159,10 +166,6 @@ h2 {
     height: 100vh; /* Use viewport height to cover the visible area */
   }
 
-  .image-wrapper img {
-    margin-top: 5px;
-  }
-
   .image-wrapper2 {
     margin-bottom: 5px;
   }
@@ -171,13 +174,5 @@ h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 1%;
-  }
-
-  #formButton {
-    margin-top: 300px;
-  }
-
-  .image-wrapper4 img {
-    display: none;
   }
 }

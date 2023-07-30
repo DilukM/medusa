@@ -21,10 +21,6 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.content h1 {
-  margin-top: 20px; /* Add margin to the top of the h1 element */
-}
-
 body::before {
   content: "";
   position: fixed; /* Change to fixed to cover only the visible area */
@@ -36,7 +32,7 @@ body::before {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
-.main {
+/* .main {
   position: absolute;
   justify-content: center;
   display: flex;
@@ -48,7 +44,7 @@ body::before {
   justify-content: center;
   text-align: center;
   position: relative;
-}
+} */
 
 .image-wrapper {
   position: absolute;
@@ -67,20 +63,20 @@ body::before {
 }
 
 .image-wrapper2 {
-  position: absolute;
-  margin-bottom: 1rem;
+  position: relative;
+  top: 2px;
+  margin-bottom: 0rem;
   width: 100%; /* Adjust the width of the image wrapper as needed */
-  height: 1600px; /* Adjust the height of the image wrapper as needed */
+  height: 700px; /* Adjust the height of the image wrapper as needed */
   z-index: 1; /* Set a higher z-index to bring the image to the front */
 }
 
 .image-wrapper2 img {
-  position: relative;
+  position: absolute;
   display: flex;
   width: 100%;
   object-fit: scale-down;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 0px;
   padding: 1%;
 }
 
@@ -96,7 +92,19 @@ body::before {
   float: right;
   justify-content: right; /* Set a higher z-index to bring the image to the front */
 }
-
+.main {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+}
+.heading {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
 .image-wrapper4 img {
   display: flex;
   width: 30%;
@@ -104,18 +112,23 @@ body::before {
   object-fit: scale-down;
 }
 
-#formButton {
+.image-wrapper5 img {
+  display: block;
+  width: 75%;
+  height: 75%;
+  object-fit: scale-down;
+}
+
+.image-wrapper5 {
+  position: absolute;
+  top: 50px;
+  width: 100%; /* Adjust the width of the image wrapper as needed */
+  height: 1200px; /* Adjust the height of the image wrapper as needed */
+  z-index: 1; /* Set a higher z-index to bring the image to the front */
+}
+
+.heading h1 {
   position: relative;
-  padding: 15px 30px;
-  margin-top: 450px;
-  font-size: 18px;
-  background-color: #3498db;
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  z-index: 4;
-  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -140,7 +153,12 @@ body::before {
   }
 
   .image-wrapper2 {
-    margin-bottom: 5px;
+    position: relative;
+    top: 0px;
+    margin-bottom: 0rem;
+    width: 80%; /* Adjust the width of the image wrapper as needed */
+    height: 400px; /* Adjust the height of the image wrapper as needed */
+    z-index: 1; /* Set a higher z-index to bring the image to the front */
   }
 
   .image-wrapper2 img {
@@ -148,9 +166,19 @@ body::before {
     margin-bottom: 0px;
     padding: 1%;
   }
+  .image-wrapper5 img {
+    display: block;
+    width: 40%;
+    height: 40%;
+    object-fit: scale-down;
+  }
 
-  #formButton {
-    margin-top: 350px;
+  .image-wrapper5 {
+    position: absolute;
+    top: 100px;
+    width: 100%; /* Adjust the width of the image wrapper as needed */
+    height: 1200px; /* Adjust the height of the image wrapper as needed */
+    z-index: 1; /* Set a higher z-index to bring the image to the front */
   }
 
   .image-wrapper4 img {

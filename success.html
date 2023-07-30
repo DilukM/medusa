@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Medusa</title>
-    <link rel="stylesheet" type="text/css" href="success.css" />
+    <link rel="stylesheet" type="text/css" href="success1.css" />
 
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
@@ -15,24 +15,41 @@
   </head>
 
   <body>
-    <div class="image-wrapper">
-      <img src="medusa.png" alt="Image on the left" />
-    </div>
-    <div class="heading">
-      <center>
-        <div class="image-wrapper2">
-          <img src="logo1.png" alt="" />
-        </div>
-        <div class="image-wrapper5">
-          <img src="tick.png" />
-        </div>
-        <h1>Ticket Reservation<br />Successfully Completed</h1>
-        <h2>Thank You!</h2>
-      </center>
+    <div class="Main">
+      <div class="image-wrapper">
+        <img src="medusa.png" alt="Image on the left" />
+      </div>
 
-      <div class="image-wrapper4">
-        <img src="Logos.png" />
+      <div class="heading">
+        <center>
+          <div class="image-wrapper2">
+            <img src="logo1.png" alt="" />
+          </div>
+          <div class="texts">
+            <h1>Ticket Reservation<br />Successfully Completed</h1>
+            <h2>Thank You!</h2>
+          </div>
+
+          <div class="image-wrapper5">
+            <img src="tick.png" />
+          </div>
+        </center>
+      </div>
+
+      <div>
+        <div class="image-wrapper4">
+          <img src="Logos.png" />
+        </div>
       </div>
     </div>
+
+    <script>
+      // JavaScript code to handle button click and redirect
+      document
+        .getElementById("formButton")
+        .addEventListener("click", function () {
+          window.location.href = "form.html";
+        });
+    </script>
   </body>
 </html>
