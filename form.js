@@ -1,22 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // const firebaseConfig = {
-  //   apiKey: "AIzaSyAox_PBf4E7Vmewb4xTzEsDUXnUuPj4KB4",
-  //   authDomain: "medusa-c9963.firebaseapp.com",
-  //   projectId: "medusa-c9963",
-  //   storageBucket: "medusa-c9963.appspot.com",
-  //   messagingSenderId: "1076162338462",
-  //   appId: "1:1076162338462:web:322e7d8ff1761c68c9a58f",
-  //   measurementId: "G-FN51P597T2"
-  // };
   const firebaseConfig = {
-    apiKey: "AIzaSyAxWlSYGpkpkKcYvzNFKxe1jJ9PFa6xTa4",
-    authDomain: "medusa-3bb52.firebaseapp.com",
-    databaseURL:
-      "https://medusa-3bb52-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "medusa-3bb52",
-    storageBucket: "medusa-3bb52.appspot.com",
-    messagingSenderId: "380806606306",
-    appId: "1:380806606306:web:a70759f013f6a924891dbb",
+    apiKey: "AIzaSyAox_PBf4E7Vmewb4xTzEsDUXnUuPj4KB4",
+    authDomain: "medusa-c9963.firebaseapp.com",
+    projectId: "medusa-c9963",
+    storageBucket: "medusa-c9963.appspot.com",
+    messagingSenderId: "1076162338462",
+    appId: "1:1076162338462:web:322e7d8ff1761c68c9a58f",
+    measurementId: "G-FN51P597T2",
   };
 
   firebase.initializeApp(firebaseConfig);
