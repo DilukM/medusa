@@ -58,6 +58,7 @@ h1 {
 }
 
 form {
+  z-index: 4;
   max-width: 700px;
   width: 100%;
   margin: 0 auto;
