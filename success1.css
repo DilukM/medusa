@@ -114,8 +114,8 @@ body::before {
 
 .image-wrapper5 img {
   display: block;
-  width: 75%;
-  height: 75%;
+  width: 65%;
+  height: 65%;
   object-fit: scale-down;
 }
 
@@ -125,10 +125,6 @@ body::before {
   width: 100%; /* Adjust the width of the image wrapper as needed */
   height: 1200px; /* Adjust the height of the image wrapper as needed */
   z-index: 1; /* Set a higher z-index to bring the image to the front */
-}
-
-.heading h1 {
-  position: relative;
 }
 
 @media only screen and (max-width: 1000px) {
