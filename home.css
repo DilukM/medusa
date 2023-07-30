@@ -87,7 +87,7 @@ body::before {
 .image-wrapper4 {
   position: absolute;
   top: 300px;
-  left: 1200px;
+  left: 1000px;
   width: 750px; /* Adjust the width of the image wrapper as needed */
   height: 110%; /* Adjust the height of the image wrapper as needed */
   z-index: 1;
