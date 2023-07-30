@@ -126,7 +126,7 @@ body::before {
 
 @media only screen and (max-width: 1000px) {
   .texts {
-    bottom: 100px;
+    bottom: 70px;
   }
   .image-wrapper {
     display: none;
