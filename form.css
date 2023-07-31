@@ -50,7 +50,7 @@ h1 {
   align-content: center;
   align-items: center;
   display: block;
-  left: 150px;
+  left: 170px;
   width: 70%;
 }
 
@@ -140,10 +140,13 @@ input[type="submit"] {
   border: none;
   cursor: pointer;
   text-align: center;
+  transition: 0.3s;
 }
 
 input[type="submit"]:hover {
-  background-color: #4b371c;
+  background-color: #193e38;
+  color: yellow;
+  scale: 105%;
 }
 
 .image-wrapper4 img {
