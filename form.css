@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Hide horizontal scrollbar if needed */
-  overflow-y: hidden;
+  overflow-y: auto;
   background-image: url("BG.jpg");
   background-size: cover;
   background-repeat: no-repeat;
