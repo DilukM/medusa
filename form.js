@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
         full_name: fullName,
         email: email,
         contact_number: contactNumber,
-        NIC_Number: nicNumber,
-        TicketType: TicketType,
+        nic_Number: nicNumber,
+        ticketType: TicketType,
         number_of_tickets: NumberofTickets,
       })
       .then(function (docRef) {
