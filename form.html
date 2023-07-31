@@ -40,20 +40,24 @@
       <input type="text" id="nicNumber" name="nicNumber" required /><br /><br />
 
       <label for="ticketType">Type of Ticket:</label>
-      <select type="text" id="ticketType" name="ticketType" required />
+      <select type="text" id="ticketType" name="ticketType" required>
         <option value="EarlyBirds">Early Birds (Rs.2000)</option>
         <option value="VIP">VIP (Rs.5000)</option>
       </select>
       <br /><br />
 
       <label for="NoOfTickets">Number of Tickets:</label>
-      <input
-        type="text"
+      <select
+        type="Number"
         id="NoOfTickets"
         name="NoOfTickets"
         placeholder="Maximum 3 tickets can be reserved"
         required
-      /><br /><br />
+      >
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option></select
+      ><br /><br />
 
       <center><input type="submit" value="Submit" /></center>
     </form>
