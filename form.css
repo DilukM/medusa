@@ -201,6 +201,10 @@ input[type="submit"]:hover {
     display: none;
   }
 
+  p {
+    top: 150px;
+  }
+
   form {
     z-index: 4;
     max-height: 650px;
