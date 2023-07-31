@@ -54,7 +54,7 @@ p {
 }
 
 .image-wrapper {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   /* Adjust the height of the image wrapper as needed */
@@ -63,7 +63,7 @@ p {
 
 .image-wrapper img {
   display: block;
-  width: 50%;
+  width: 40%;
   height: 100%;
   object-fit: scale-down;
   margin-top: 50px;
