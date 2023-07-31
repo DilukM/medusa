@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   const firebaseConfig = {
-    apiKey: "AIzaSyAox_PBf4E7Vmewb4xTzEsDUXnUuPj4KB4",
-    authDomain: "medusa-c9963.firebaseapp.com",
-    projectId: "medusa-c9963",
-    storageBucket: "medusa-c9963.appspot.com",
-    messagingSenderId: "1076162338462",
-    appId: "1:1076162338462:web:322e7d8ff1761c68c9a58f",
-    measurementId: "G-FN51P597T2",
+    apiKey: "AIzaSyBa3W5hLroJdD070ps0dSCTWrxXEplOwcI",
+  authDomain: "medusa-7a733.firebaseapp.com",
+  projectId: "medusa-7a733",
+  storageBucket: "medusa-7a733.appspot.com",
+  messagingSenderId: "347190790414",
+  appId: "1:347190790414:web:0cdf780c0354afb3896f5f",
+  measurementId: "G-7JYLS18CGJ",
   };
 
   firebase.initializeApp(firebaseConfig);
