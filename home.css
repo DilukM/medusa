@@ -112,10 +112,15 @@ body::before {
   background-color: #3498db;
   color: #ffffff;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
   z-index: 4;
   margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+#formButton:hover {
+  scale: 105%;
 }
 
 @media only screen and (max-width: 1000px) {
