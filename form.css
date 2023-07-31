@@ -46,6 +46,14 @@ h1 {
   color: #4b371c;
 }
 
+.conditions p {
+  align-content: center;
+  align-items: center;
+  display: block;
+  left: 150px;
+  width: 70%;
+}
+
 p {
   top: 50px;
   position: relative;
@@ -199,6 +207,13 @@ input[type="submit"]:hover {
   form::before,
   form::after {
     display: none;
+  }
+
+  .conditions p {
+    align-content: center;
+    align-items: center;
+    left: 10px;
+    width: 70%;
   }
 
   p {
