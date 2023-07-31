@@ -104,7 +104,8 @@ label {
 
 input[type="text"],
 input[type="email"],
-input[type="tel"] {
+input[type="tel"],
+select {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -190,6 +191,7 @@ input[type="submit"]:hover {
     max-height: 650px;
     max-width: 500px;
     width: 80%;
+    height: 90%;
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -206,7 +208,8 @@ input[type="submit"]:hover {
 
   input[type="text"],
   input[type="email"],
-  input[type="tel"] {
+  input[type="tel"],
+  select {
     width: 100%;
     padding: 10px;
     margin-bottom: 5px;

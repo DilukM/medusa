@@ -20,7 +20,7 @@
     </div>
 
     <form action="#" method="POST" id="studentForm" data-netlify="true">
-      <h1>Reservation Form</h1>
+      <h1>Ticket Reservation Form</h1>
 
       <label for="fullname">Full Name:</label>
       <input type="text" id="fullname" name="fullname" required /><br /><br />
@@ -28,21 +28,7 @@
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required /><br /><br />
 
-      <label for="faculty">Faculty:</label>
-      <input type="text" id="faculty" name="faculty" required /><br /><br />
-
-      <label for="degree">Degree Program:</label>
-      <input type="text" id="degree" name="degree" required /><br /><br />
-
-      <label for="studentnum">Student Number:</label>
-      <input
-        type="text"
-        id="studentnum"
-        name="studentnum"
-        required
-      /><br /><br />
-
-      <label for="contactnum">Contact Number:</label>
+      <label for="contactnum">Contact Number (Whatsapp):</label>
       <input
         type="tel"
         id="contactnum"
@@ -50,8 +36,38 @@
         required
       /><br /><br />
 
+      <label for="nicNumber">NIC Number:</label>
+      <input type="text" id="nicNumber" name="nicNumber" required /><br /><br />
+
+      <label for="ticketType">Type of Ticket:</label>
+      <select type="text" id="ticketType" name="ticketType" required />
+        <option value="EarlyBirds">Early Birds (Rs.2000)</option>
+        <option value="VIP">VIP (Rs.5000)</option>
+      </select>
+      <br /><br />
+
+      <label for="NoOfTickets">Number of Tickets:</label>
+      <input
+        type="text"
+        id="NoOfTickets"
+        name="NoOfTickets"
+        placeholder="Maximum 3 tickets can be reserved"
+        required
+      /><br /><br />
+
       <center><input type="submit" value="Submit" /></center>
     </form>
+
+    <p>
+      <b>Conditions:</b> <br /><br />
+      &diams; The reserved tickets should be collected before of August 8th by
+      paying the full amount of money. The early bird offer is valid only until
+      12.00 noon of the mentioned date. <br />
+      <br />
+      &diams; If there's anybody who fails to collect the reserved tickets
+      before 12.00 noon of August 8th, they have to pay the general price(LKR
+      2500) to collect the ticket/s.
+    </p>
     <div class="image-wrapper4">
       <img src="Logos.png" />
     </div>
