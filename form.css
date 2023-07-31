@@ -139,7 +139,6 @@ input[type="submit"]:hover {
 }
 
 .image-wrapper4 img {
-  position: fixed;
   display: flex;
   width: 30%;
   height: 30%;
@@ -241,9 +240,9 @@ input[type="submit"]:hover {
     display: none;
   }
 
-  .image-wrapper4 {
+  /* .image-wrapper4 {
     display: none;
-  }
+  } */
   body {
     background-color: rgb(15, 14, 14);
     overflow: auto;
