@@ -5,7 +5,8 @@ body {
   overflow-x: hidden; /* Hide horizontal scrollbar if needed */
   overflow-y: auto;
   background-image: url("BG.jpg");
-  background-size: cover;
+  background-color: rgb(15, 14, 14);
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
@@ -35,7 +36,7 @@ body::before {
   top: 0;
   left: 0;
   width: 100vw; /* Use viewport width to cover the visible area */
-  height: 100vh;
+  height: 140vh;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
@@ -47,7 +48,7 @@ h1 {
 
 p {
   position: relative;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
   z-index: 3;
 }
@@ -229,6 +230,7 @@ input[type="submit"]:hover {
   }
 
   #studentForm {
+    top: 150px;
     border-radius: 20px;
     box-sizing: border-box;
   }
