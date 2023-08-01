@@ -82,6 +82,7 @@ body::before {
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 1%;
+  bottom: 100px;
 }
 
 .image-wrapper4 {
