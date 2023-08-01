@@ -5,7 +5,7 @@ body {
   font-family: Arial, sans-serif;
   padding: 10px;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
   background-image: url("BG.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -68,7 +68,7 @@ body::before {
 
 .image-wrapper2 {
   position: absolute;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   width: 100%; /* Adjust the width of the image wrapper as needed */
   height: 1600px; /* Adjust the height of the image wrapper as needed */
   z-index: 1; /* Set a higher z-index to bring the image to the front */
@@ -123,6 +123,17 @@ body::before {
   scale: 105%;
 }
 
+#demo {
+  position: relative;
+  color: yellowgreen;
+  top: 400px;
+}
+
+#offer {
+  position: relative;
+  top: 400px;
+}
+
 @media only screen and (max-width: 1000px) {
   .image-wrapper {
     display: none;
@@ -131,11 +142,22 @@ body::before {
     display: none;
   }
 
+  #demo {
+    position: relative;
+    color: yellowgreen;
+    top: 300px;
+  }
+
+  #offer {
+    position: relative;
+    top: 300px;
+  }
+
   body {
     overflow: hidden;
     background-size: cover;
     align-items: center;
-    min-height: 100vh;
+    min-height: 80vh;
   }
 
   body::before {
@@ -152,10 +174,11 @@ body::before {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 1%;
+    bottom: 70px;
   }
 
   #formButton {
-    margin-top: 350px;
+    margin-top: 300px;
   }
 
   .image-wrapper4 img {
