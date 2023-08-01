@@ -121,7 +121,9 @@ body::before {
 }
 
 #formButton:hover {
-  scale: 105%;
+  /* scale: 105%; */
+  background-color: #ffffff;
+  color: #4e330a;
 }
 
 #demo {
