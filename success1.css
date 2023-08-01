@@ -161,6 +161,7 @@ body::before {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 1%;
+    bottom: 200px;
   }
   .image-wrapper5 img {
     display: block;
