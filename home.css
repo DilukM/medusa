@@ -127,10 +127,13 @@ body::before {
 #demo {
   position: relative;
   color: yellowgreen;
-  top: 370px;
 }
 
 #offer {
+  position: relative;
+}
+
+.offer-wrapper {
   position: relative;
   top: 370px;
 }
@@ -143,13 +146,7 @@ body::before {
     display: none;
   }
 
-  #demo {
-    position: relative;
-    color: yellowgreen;
-    top: 280px;
-  }
-
-  #offer {
+  .offer-wrapper {
     position: relative;
     top: 280px;
   }
