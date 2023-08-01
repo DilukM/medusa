@@ -84,6 +84,7 @@ form {
   width: 100%;
   margin: 0 auto;
   padding: 10px;
+  padding-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.7);
@@ -225,11 +226,12 @@ input[type="submit"]:hover {
 
   form {
     z-index: 4;
-    max-height: 650px;
+    max-height: 700px;
     max-width: 500px;
     width: 80%;
     height: 100%;
     margin: 10px;
+    margin-bottom: 25px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 50px;
