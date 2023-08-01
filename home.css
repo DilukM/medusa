@@ -108,7 +108,7 @@ body::before {
 #formButton {
   position: relative;
   padding: 15px 30px;
-  margin-top: 450px;
+  margin-top: 400px;
   font-size: 18px;
   background-color: #3498db;
   color: #ffffff;
@@ -127,12 +127,12 @@ body::before {
 #demo {
   position: relative;
   color: yellowgreen;
-  top: 400px;
+  top: 370px;
 }
 
 #offer {
   position: relative;
-  top: 400px;
+  top: 370px;
 }
 
 @media only screen and (max-width: 1000px) {
