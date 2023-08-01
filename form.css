@@ -133,6 +133,11 @@ select {
   box-sizing: border-box;
 }
 
+select {
+  padding-right: 30px;
+  margin-right: 20px;
+}
+
 input[type="submit"] {
   background-color: #3498db;
   color: #fff;
