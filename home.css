@@ -157,7 +157,7 @@ body::before {
     overflow: hidden;
     background-size: cover;
     align-items: center;
-    min-height: 80vh;
+    min-height: 100vh;
   }
 
   body::before {
