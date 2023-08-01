@@ -146,12 +146,12 @@ body::before {
   #demo {
     position: relative;
     color: yellowgreen;
-    top: 300px;
+    top: 280px;
   }
 
   #offer {
     position: relative;
-    top: 300px;
+    top: 280px;
   }
 
   body {
