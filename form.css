@@ -36,7 +36,7 @@ body::before {
   top: 0;
   left: 0;
   width: 100vw; /* Use viewport width to cover the visible area */
-  height: 150vh;
+  height: 160vh;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
