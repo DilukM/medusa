@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         nic_Number: nicNumber,
         ticketType: TicketType,
         number_of_tickets: NumberofTickets,
+        ticketNo: "-",
       })
       .then(function (docRef) {
         console.log("Document written with ID: ", docRef.id);
